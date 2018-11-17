@@ -1,32 +1,32 @@
 Algoritmo "ExercicioSala5"
-// Disciplina  : Linguagem e Lógica de Programação
+// Disciplina  : Linguagem e LÃ³gica de ProgramaÃ§Ã£o
 // Professor   : Quelita
-// Autor(a)    : FÁBIO
+// Autor(a)    : FÃBIO
 // Data atual  : 17/11/2018
-Var  // Determina se um número inteiro é positivo ou negativo com parâmetro.
+Var  // Determina se um nÃºmero inteiro Ã© positivo ou negativo com parÃ¢metro.
 
-numero: inteiro
+num: inteiro
 
-procedimento IdNum(num: inteiro)
+procedimento IdNum
 
 inicio
 
    se (num = 0) entao
-      escreval ("É neutro")
+      escreval ("Ã‰ neutro")
       fimse
          se (num > 0) entao
-            escreval ("É positivo")
+            escreval ("Ã‰ positivo")
             fimse
                se (num < 0) entao
-                  escreval ("É negativo")
+                  escreval ("Ã‰ negativo")
                   fimse
 fimprocedimento
 
 Inicio
 
-escreval ("Digite um número inteiro: ")
-leia (numero)
+escreval ("Digite um nÃºmero inteiro: ")
+leia (num)
 
-IdNum(numero)
+IdNum
 
 Fimalgoritmo
